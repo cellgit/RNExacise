@@ -3,7 +3,41 @@
 import React, { Component } from 'react'
 import { Text, StyleSheet, View } from 'react-native'
 
+
+
+
+
 export default class  lifeCycle extends Component {
+    /*
+    组件被实例化触发,一般用于初始化工作,如设置state
+    */
+    constructor() {
+
+    }
+
+    /*
+    组件挂在完毕,可以发送异步请求获取数据
+    */ 
+    componentDidMount() {
+
+    }
+
+    /*
+    组件被卸载时
+    一般用于清除定时器或订阅等
+    */ 
+    componentWillUnmount() {
+
+    }
+
+
+
+    /*
+    render: 
+    --组件渲染时触发
+    --组件被更新时触发 state和props发生改变时
+
+    */ 
   render() {
     return (
       <View>
