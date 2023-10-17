@@ -5,7 +5,8 @@ import { Text, View } from 'react-native'
 // import Index from './scr_02_StackNavigator'
 // import Index from './utils-react-native-paper'
 // import Index from './utils-react-native-elements'
-import Index from './components/components1'
+// import Index from './components/components1'
+import Index from './components/componentsEvent'
 
 export default class App extends Component {
   render() {
